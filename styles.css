@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #000;
+  padding: 20px 0;
+}
+
+nav img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/ff5587c5-1052-47cf-974b-a97e3b4f0656/065df910-dec3-46ae-afa8-7ad2b52dce40/IN-en-20240506-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #e50914;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: #d80913;
+}
+
+.features, .devices {
+  background-color: #000;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.features img, .devices img {
+  width: 80%;
+  max-width: 600px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  border-top: 1px solid #363636;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 0 10px;
+  }
+  
+  .footer-links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
